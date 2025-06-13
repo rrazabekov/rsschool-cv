@@ -26,6 +26,11 @@ NUR Telecom, O! Moblie Operator (Intern Labs 6.0)
 
 ## Courses and Trainings
 
+**Introduction to Java, EPAM Online Course** | 2024 June
+
+* Java (basic proficiency)
+* Git (basic proficiency)
+
 ## Education
 
 ## Languages
