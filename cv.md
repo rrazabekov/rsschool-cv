@@ -44,4 +44,17 @@ competitions
 
 ## Languages
 
+**Russian (Native)**
+
+**Kyrgyz (Native)**
+
+**English (C1)**
+
+* IELTS 6.0 (2023)
+* Courses of advanced English
+
+**German (B2/C1)**
+
+* Deutsches Sprachdiplom (DSD) II – CEFR Level B2/C1 (2022)
+
 ## Contacs:
