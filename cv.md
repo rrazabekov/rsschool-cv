@@ -33,6 +33,15 @@ NUR Telecom, O! Moblie Operator (Intern Labs 6.0)
 
 ## Education
 
+**Kyrgyz National University** | 2022-2026
+
+Bachelor of Computer Science
+
+* GPA: 3.8/4.0
+* Awarded Certificate of Fellowship by Korean Foundation for academic excellence and project work
+* Active participation in hackathons and interuniversity
+competitions
+
 ## Languages
 
 ## Contacs:
