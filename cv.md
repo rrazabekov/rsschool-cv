@@ -57,4 +57,10 @@ competitions
 
 * Deutsches Sprachdiplom (DSD) II – CEFR Level B2/C1 (2022)
 
-## Contacs:
+## Contacs
+
+**Email:** rustamrazabekov1705@gmail.com
+
+**Linkedin:** [Rustam Razabekov](https://www.linkedin.com/in/rustam-razabekov-0789312b9/)
+
+**Telegram:** @rrazabekov
