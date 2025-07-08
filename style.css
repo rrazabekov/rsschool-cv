@@ -1,0 +1,27 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.block {
+  margin-left: 2%;
+}
+
+.block-title {
+  display: inline-block;
+  padding: 10px 5px;
+  border: solid 1px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-image {
+  width: 20%;
+  border-radius: 40%;
+}
