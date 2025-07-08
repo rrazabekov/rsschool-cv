@@ -14,3 +14,14 @@
   padding: 10px 5px;
   border: solid 1px;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-image {
+  width: 20%;
+  border-radius: 40%;
+}
