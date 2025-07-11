@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,44 +8,85 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets/cv.png">
 </head>
+
 <body>
-  <div class="container">
-    <div class="header">
-      <section>
-        <h1>Rustam Razabekov CV</h1>
-        <h2>Just another SE</h2>
-        <p><i>"Fixing bugs and coding sometimes"</i></p>
-      </section>
-      <img class="my-image" src="assets/me.jpg" alt="Rustam Razabekov">
+  <header class="header">
+    <div class="container">
+      <nav>
+        <ul class="header-list">
+          <li class="header-item"><a href="#about-me-block">About Me</a></li>
+          <li class="header-item">
+            <a href="#experience-block">Experience</a>
+          </li>
+          <li class="header-item"><a href="#skills-block">Skills</a></li>
+          <li class="header-item"><a href="#projects-block">Projects</a></li>
+          <li class="header-item"><a href="#code-block">Code</a></li>
+          <li class="header-item">
+            <a href="#education-block">Education</a>
+          </li>
+          <li class="header-item">
+            <a href="#languages-block">Languages</a>
+          </li>
+          <li class="header-item"><a href="#contacts-block">Contacts</a></li>
+        </ul>
+      </nav>
     </div>
-      <section class="block">
-        <h2 class="block-title">Internship at E-Health KG | 2024 May - Present</h2>
-        <h3>E-Health KG, Ministry of Health of Kyrgyzstan</h3>
-          <ul>
-            <li>Learning frontend development</li>
-            <li>Creating Vue JS apps</li>
-          </ul>
+  </header>
+  <main class="main">
+    <div class="container">
+      <h1>Rustam Razabekov CV</h1>
+      <section class="about-me-block" id="about-me-block">
+        <div>
+          <h2 class="block-title">About Me</h2>
+          <p>
+            My name is Rustam, I'm experienced in Java and Spring Boot
+            development. but still learning new things, so I am here because
+            of this. Looking for growing my skills and good memories in my
+            path in IT.
+          </p>
+        </div>
+        <img src="/assets/me.jpg" alt="picture of Rustam Razabekov" id="my-image">
       </section>
-      <section class="block">
-        <h2 class="block-title">Java Backend Developer Intern | 2024 September - 2025 April</h2>
-        <h3>NUR Telecom, O! Moblie Operator (Intern Labs 6.0)</h3>
-          <ul>
-            <li>Developed and maintained backend services using Java and Spring Boot</li>
-            <li>Worked with SQL databases for data persistence (JPA, JDBC)</li>
-          </ul>
+      <section class="block" id="experience-block">
+        <h2 class="block-title">Experience</h2>
+        <h3>Internship at E-Health KG | 2024 May - Present</h3>
+        <h4>E-Health KG, Ministry of Health of Kyrgyzstan</h4>
+        <ul>
+          <li>Learning frontend development</li>
+          <li>Creating Vue JS apps</li>
+        </ul>
+        <h3>Java Backend Developer Intern | 2024 September - 2025 April</h3>
+        <h4>NUR Telecom, O! Moblie Operator (Intern Labs 6.0)</h4>
+        <ul>
+          <li>
+            Developed and maintained backend services using Java and Spring
+            Boot
+          </li>
+          <li>Worked with SQL databases for data persistence (JPA, JDBC)</li>
+        </ul>
       </section>
-      <section class="block">
+      <section id="skills-block">
+        <h2 class="block-title">Skills</h2>
+        <ul>
+          <li>Java, Spring Boot</li>
+          <li>Git (GitHub, GitLab)</li>
+          <li>JavaScript, HTML, CSS</li>
+          <li>Docker</li>
+        </ul>
+      </section>
+      <section class="block" id="education-block">
         <h2 class="block-title">Education</h2>
         <h3>Kyrgyz National University | 2022-2026</h3>
-          <p>Bachelor of Computer Science</p>
+        <p>Bachelor of Computer Science</p>
       </section>
-      <section class="block">
-        <h2 class="block-title">Skills</h2>
+      <section>
+        <h2 class="block-title">Projects</h2>
         <ol>
-          <li>Java, Spring</li>
-          <li>Git (Github, Gitlab)</li>
-          <li>JS, HTML, CSS</li>
-          <li>Docker</li>
+          <li>
+            <a href="https://rrazabekov.github.io/rsschool-cv/">
+              <b>CV Project</b>
+            </a>
+          </li>
         </ol>
       </section>
       <section class="block">
@@ -56,12 +98,25 @@
           <li>German (B2)</li>
         </ul>
       </section>
-      <section class="block">
-        <h2 class="block-title">Contacts</h2>
-        <p>Telegram: rrazabekov</p>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-item">
+        <img src="assets/linkedin.png" alt="Linkedin logo" class="footer-logo">
         <a href="https://www.linkedin.com/in/rustam-razabekov/">Linkedin</a>
-        <p>Email: rustamrazabekov1705@gmail.com</p>
-      </section>
-  </div>
+      </div>
+      <div class="footer-item">
+        <img src="assets/github.png" alt="Github logo" class="footer-logo">
+        <a href="https://github.com/rrazabekov">GitHub</a>
+      </div>
+      <div class="footer-item">
+        <a href="https://rs.school/courses/javascript-ru" id="rs-link">
+          <img src="assets/rs_school.svg" alt="RS School logo">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
