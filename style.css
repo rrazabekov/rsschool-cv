@@ -89,3 +89,12 @@ a {
   background-color: #ff8000;
   color: black;
 }
+
+#code-block {
+  padding-left: 50px;
+  background-color: #53565a;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 20px;
+}
